@@ -103,13 +103,14 @@ a {
 }
 
 .hero .sub-title {
-  color: #687690;
+  color: #687691;
   font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 0.018rem;
 }
 
 .hero .title {
+  width: 559px;
   margin-top: 8px;
   color: #000336;
   font-size: 6.4rem;
@@ -118,6 +119,7 @@ a {
 }
 
 .hero .desc {
+  width: 550px;
   margin-top: 30px;
   color: #5a6473;
   font-size: 1.8rem;
