@@ -170,7 +170,19 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 96px;
+  margin-top: 70px;
+}
+
+.clients .image a {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 0 42px;
+}
+
+.clients .image a:hover {
+  border-radius: 12px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.10);
 }
 
 /* ===================== Guides ============================ */
