@@ -47,9 +47,23 @@ a {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* ========FIXED HEADER ==================*/
+
+.fixed-header {
+  position: sticky;
+  z-index: 1;
+  top: -26px;
+  background-color: #E6F0FF;
+  padding-top: 26px;
+}
+
+
 /*======================= Header ====================*/
 
-.header {
+.hero-header {
+  display: flex;
+  flex-direction: column;
   background: #e6f0ff;
   height: 100vh;
   position: relative;
@@ -59,7 +73,7 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding: 12px 0;
 }
 
 .navbar ul {
